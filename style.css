@@ -17,6 +17,46 @@ body {
     background-color: #FAF7F7;
 }
 
+h1 {
+    font-family: 'Gibson', cursive;
+    color: #233245;
+    font-size: 2rem;
+    margin-top: 4vw;
+    margin-left: 10vw;
+}
+
+h2 {
+    font-family: 'Gibson', cursive;
+    color: #233245;
+    font-size: 1.3rem;
+    margin-top: 4vw;
+    margin-left: 10vw;
+}
+
+h3 {
+    font-family: 'Gibson', cursive;
+    color: #233245;
+    font-size: 0.9rem;
+    margin-top: 4vw;
+    margin-left: 10vw;
+}
+
+h4 {
+    font-family: 'Gibson', cursive;
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0 0 0 18px;
+}
+
+p {
+    font-family: 'Gibson', cursive;
+    color: #233245;
+    font-size: 0.7rem;
+    margin-top: 2vw;
+    margin-left: 10vw;
+
+}
+
 /********BURGERMENU********/
 
 .hidden {
@@ -112,10 +152,11 @@ nav {
 
 .loginbtn {
     width: 150px;
-    height: 60px;
+    height: 58px;
     font-size: 1rem;
     color: white;
     margin-top: 30px;
+    margin-left: 60px;
     padding: 15px;
     background-color: #233245;
     border-radius: 10px;
