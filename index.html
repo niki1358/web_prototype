@@ -10,25 +10,29 @@
 
 <body>
     <header>
-        <img src="assets/kea_logo.png" alt="KEA's logo">
+        <img id="logo" src="assets/kea_white_logo.svg" alt="KEA's logo">
     </header>
-    <section id="login" class="sectionwrapper">
-        <section id="login_container1">
-            <section id="username_box">
-                <p>username</p>
-            </section>
-            <section id="password_box">
-                <p>password</p>
-            </section>
+    <form>
+        <section class="top_container">
+            <label for="uname"><b>Brugernavn</b></label>
+            <input type="text" placeholder="nikiwacherhausen" name="uname" required>
+
+            <label for="psw"><b>Kodeord</b></label>
+            <input type="password" placeholder="1234" name="psw" required>
+
+            <a href="Landingpage.html" id="Login" class="loginbtn">
+                <h1>Login</h1>
+            </a>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Husk mig!
+            </label>
         </section>
-        <section id="login_container2">
-            <section id="continue_box">
-                <p>continue</p>
-            </section>
-            <section id="facebook_box">
-                <p>login with facebook</p>
-            </section>
+
+        <section class="bot_container">
+            <span class="psw"><a href="#">Har du glemt dit kodeord?</a></span>
         </section>
-    </section>
+    </form>
+
+
     <script src="script.js"></script>
 </body></html>
